@@ -4,45 +4,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=s, initial-scale=1.0">
-    <title>Doccument</title>
+    <title>Portfolio</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <main>
         <nav class='navbar'>
-            <h1>Shipra Tripathi Portfolio</h1>
-            <div class='navigation menu'>
-                <a href='#aboutMe'>About Me</a>
-                <a href='#skills' >Skills</a>
-                <a href='#projects'>Projects</a>
-                <a href='#contact form'>Let's Contact</a>
-            </div>
+               <ul>
+              <li><a href='#'>Home</a></li>
+              <li><a href='#'>Skills</a></li>
+              <li><a href='#'>Education</a></li>
+              <li><a href='#'>About me</a></li>
+              <li><a href='#'>Let's Contact</a></li>
+              </ul>
         </nav>
-        <section class='background'>
-            <img src="/IMG_20220928_141154.png">
-            <div class="background details">
-                <h1>Hi Everyone</h1>
-                <h3>Web Developer, Video Editor, Photographer</h3>
-                <div>
+        <section id="home">
+        <h1 class="heading">Hello I'm</h1>
+        <h1 class="heading">Shipra Tripathi</h1>
+        <br>
+        <p>This is my Portfolio</p>
         </section>
-        <section class="aboutme" id="About Me">
-            <h1>About Me</h1>
-            <p>I am currently pursuing B tech from Ajay Kumar Garg Engineering College Ghaziabad 
-                in Informational Technology branch . I am enthusiastic and determined girl. </p>
+        <section id="education">
+            <h1 class="heading">Education</h1>
+            <div class="columns">
+            <div class="box">       
+             <h2>Graduation</h2>  
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius rem est suscipit non dicta animi, deleniti voluptas iusto natus 
+                laboriosam in fuga odio incidunt porro architecto inventore sed magnam praesentium.</p>
+            </div>
+            <div class="box">
+               <pre><h2>Schooling</h2></pre>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia 
+                magnam nisi sit totam blanditiis optio, adipisci quos error fugit rerum quisquam dolores, 
+                deserunt quia sequi! Dolorum facilis ratione temporibus eveniet?</p>
+            </div>
+            </div>
+        </section>
+        
 
-        </section>
-        <section class ='skills and projects'>
-            <div class="skills" id="skills">
-                <h1 class= "card heading">Skills</h1>
-                <img src='/image.png' tittle="Html">
-                <img src="/css.webp" tittle='CSS'>
-                <img src="/c.png" tittle="C">
-             </div>
-             <div class="project container" id="projects">
-                <h1 class="card heading">Projects</h1>
-             </div>
-             
-        </section>
+
+
+
+
+
+
+       
+        
 
         <section class="contact form" id="contact form">
             <h1>Let's Contact!</h1>
@@ -56,8 +63,8 @@
             </br>
             <lable form="message">Message</lable><br/>
             <textarea type="text" class="input-field textarea-field" placeholder="Your message"></textarea>
-            <br>
-            <br>
+            </br>
+            </br>
             <button type="button" class="btn">Submit</button>
         </section>
     </main>
