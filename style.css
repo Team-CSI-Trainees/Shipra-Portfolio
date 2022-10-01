@@ -52,7 +52,7 @@
     top: 0;
     left: 0;
     background: url('bg.png') no-repeat center center/cover;
-    min-height: 700px;
+    min-height: 900px;
     width: 100%;
     z-index: -1;
     opacity: .8
@@ -94,23 +94,26 @@
          color: white;
          font-size: 1.8rem;
         }
-       #About me{
+       #About{
          display: flex;
          flex-direction: column;
-         background-color: black;
+         background-color: rgb(17, 17, 17);
          height: 600px;
        }
         #about h1{
-         color: white;
+         color: rgb(246, 186, 231);
          margin: 100px;
+         background-color: black;
         }
         .about{
          display: flex;
+      
         }
        .about img{
          width: 300px;
          height: 100;
          padding: 0px 2px;
+      
        }
          #skills{
            display: flex;
@@ -118,38 +121,58 @@
     height: 300px;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: rgb(17, 17, 17);
     color: white; 
 
      }
 
-#contact{
+   #contact form{
    display: flex;
    flex-direction: column;
-   background-color: #000000dc;
+   background-color: #0b0a0adc;
 }    
-      #contact h1{
+      #contact form h1{
          margin: 50px ;
       }
       
      .form{
       display: flex;
       flex-direction: column;
+      background-color: rgb(17, 17, 17);
       align-items: center;
       justify-content: center;
      }
 
      .input{
       padding: 15px 20px;
-      margin: 15px;
-      width: 40%;
-      border: none;
+      margin: 25px;
+      width: 60%;
+      border-color: black;
       outline: none;
       border-radius: 25px;
+      background-color: rgb(246, 186, 231);
 
      }  #message{
       margin: 15px;
       padding: 10px;
       border-radius: 20px;
+      background-color: rgb(246, 186, 231);
+      border-color: black;
 
      }  
+     #submit{
+      padding: 15px 20px;
+       margin: 30px;
+       width: 30%;
+       border-radius: 20px;
+       background-color: #000000dc;
+       color: white;
+       border: none;
+       outline: none;
+     }
+
+     #submit:hover{
+      background-color: rgb(228, 60, 163);
+      color: white;
+      cursor: pointer;
+     }
